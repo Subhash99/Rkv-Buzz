@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/radius"
+        android:id="@+id/linearLayout2" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="3dp"
+        android:textSize="30dp"
+        android:textColor="#ffff"
+        android:paddingLeft="15dp"
+        android:text="S"
+        />
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:text="Subhash"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="50dp"
+        />
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="250dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="24dp"
+        android:text="Subhash is good boy"
+        android:textSize="13dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="75dp"
+        />
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:layout_height="15dp"
+        android:textSize="10dp"
+        android:layout_marginTop="5dp"
+        />
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="20dp"
+        app:srcCompat="@drawable/ic_attachment_black_24dp"
+        />
+
+</RelativeLayout>

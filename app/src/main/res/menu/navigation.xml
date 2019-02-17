@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_ex"
+        android:title="Examination" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_ab"
+        android:title="Acadamics" />
+    <item
+        android:id="@+id/icon123"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="StudentClubs" />
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_event"
+        android:title="Events" />
+
+
+</menu>
